@@ -9,7 +9,6 @@ Timing
 Global Settings (paste into generator)
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Phone/UI: hand‑drawn phone frame; large chips/buttons; micro‑interactions 300–350 ms.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
 - Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
@@ -38,9 +37,7 @@ Camera / Lighting
 - Camera: static TV frame with subtle push-in; or single‑subject medium shot at ground.
 - Lighting: flat clean; stick-figure style.
 
-Transitions
-- In: cross-dissolve from yoga.
-- Out: TV frame morphs directly into an Event card (Product — Events FAST).
+
 
 Generator Prompt (Veo3/InVideo)
 “Doodle animation per StyleGuide. Large TV frame shows cricket; many tiny couch viewers, each isolated; or alt: solo fumbled catch at a local ground. Thin squiggly graphite, pencil fills, cream paper; no baked text/logos. 1080p, 24fps.”

@@ -9,7 +9,6 @@ Timing
 Global Settings (paste into generator)
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Phone/UI: hand‑drawn phone frame; large chips/buttons; micro‑interactions 300–350 ms.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
 - Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
@@ -35,9 +34,7 @@ Camera / Lighting
 - Camera: slow push-ins; close-ups on hands and faces.
 - Lighting: natural indoor light; warm color temperature.
 
-Transitions
-- In: dissolve from Connections Burst.
-- Out: dissolve to wide neighbourhood.
+
 
 Generator Prompt (Veo3/InVideo)
 “Doodle montage: 1) home chef passes a pastry to a neighbour customer; 2) tutor teaching a small living-room lesson; 3) a happy reunion as a lost dog is returned; plus subtle feature echo ticks (Say Hi, Joined, Booked, confetti). Pencil textures, warm indoor light, 1080p 24fps.”

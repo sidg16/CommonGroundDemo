@@ -9,7 +9,6 @@ Timing
 Global Settings (paste into generator)
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Phone/UI: hand‑drawn phone frame; large chips/buttons; micro‑interactions 300–350 ms.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
 - Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
@@ -19,9 +18,9 @@ Per‑chunk Overrides
 - Seed: 1010
 
 Visuals
-- Split-frame: two stick figures in separate rooms bouncing a shuttlecock against the wall.
-- One synchronized miss; shuttlecocks fall in both frames.
-- Brief glance across frame, wistful.
+- Vertical stacked split-frame (top/bottom): two simple rooms, one above the other.
+- Each figure is playing individually and unsynchronously; shuttlecocks hit the wall and then fall to the floor.
+- Final beat: a brief zoom‑out that holds a fraction longer on both figures to convey light sadness/wistfulness.
 
 On-screen Text (OST)
 - Flash ~0:01.0: “Wanted: partner” (≤0.8s)
@@ -38,12 +37,10 @@ Camera / Lighting
 - Camera: locked split; subtle camera drift.
 - Lighting: clean flat; minimal props to keep focus on action.
 
-Transitions
-- In: cross-dissolve.
-- Out: shuttlecock spins into circular avatar; morph to phone (Connect).
+
 
 Generator Prompt (Sora/Veo3)
-“Doodle animation (per StyleGuide). Split-frame; two simple rooms; strict stickman bouncing a shuttlecock against a wall. Comedic rhythm; synchronized miss; shuttlecocks fall; expressive but simple faces; thin squiggly graphite lines; cream paper background; ≤2 background doodles (window, plant). No baked text/logos. 1080p, 24fps.”
+"Doodle animation. Vertical stacked split‑frame (top room / bottom room); two simple rooms. Each stick figure plays individually and unsynchronously—shuttlecock hits the wall and then falls to the floor. Expressive but simple faces; thin squiggly graphite lines; cream paper background; ≤2 faint background doodles (window/plant). End with a brief zoom‑out that lingers to suggest gentle sadness. No baked text/logos. 1080p, 24fps."
 
 JSON Shot Spec
 ```json
@@ -65,7 +62,7 @@ JSON Shot Spec
   ],
   "camera": "locked_split",
   "lighting": "flat_clean",
-  "prompt": "Doodle split rooms; shuttle bounces; synchronized miss; pencil texture; no baked text.",
+  "prompt": "Doodle vertical stacked split: top/bottom rooms; unsynchronized solo play; shuttle hits wall then falls; brief end zoom‑out; pencil texture; no baked text.",
   "transition_in": "cross_dissolve",
   "transition_out": "shuttle_to_avatar_phone_morph",
   "transition_in_duration_s": 0.25,

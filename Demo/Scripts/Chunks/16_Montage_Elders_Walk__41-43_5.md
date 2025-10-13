@@ -9,7 +9,6 @@ Timing
 Global Settings (paste into generator)
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Phone/UI: hand‑drawn phone frame; large chips/buttons; micro‑interactions 300–350 ms.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
 - Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
@@ -38,9 +37,7 @@ Camera / Lighting
 - Camera: table close-up → medium circle → slow gimbal walk; shallow DOF.
 - Lighting: soft daylight; slight backlight for rim.
 
-Transitions
-- In: dissolve from kids.
-- Out: cut to carpool/cricket.
+
 
 Generator Prompt (Sora/Veo3)
 “Photoreal scene of two elderly neighbours walking together on a sidewalk, sharing a thermos, gentle conversation. Close-ups on hands. Soft daylight, shallow depth of field, natural soundscape. 1080p, 24fps.”
