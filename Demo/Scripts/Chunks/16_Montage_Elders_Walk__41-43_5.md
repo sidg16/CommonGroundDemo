@@ -1,12 +1,12 @@
 NIKATAM — Chunk 11: Montage — Elders Walk (0:42.5–0:45)
 
-Purpose
+[Purpose]
 Convey care, safety, and companionship among elders.
 
-Timing
+[Timing]
 0:41.0–0:43.5 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,35 +14,33 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1031
-
-Visuals
+ 
+[Visuals]
 - Doodle animation sequence within 2.5s:
 - Beat 1 (0.8s): two elders tap cards on a small table, light chuckle.
 - Beat 2 (0.7s): quick cut to a laughing‑therapy circle; shared laugh moment.
 - Beat 3 (1.0s): sidewalk walk together sharing a thermos; close‑up hands.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - “Elders — safer, seen”.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:43.0: “Elders walking side by side…” (gentle)
 
-Music & SFX
+[Music & SFX]
 - Music: warm strings continue; slight swell.
 - SFX: soft card tap; group chuckle; soft footsteps; ambient birds.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: table close-up → medium circle → slow gimbal walk; shallow DOF.
 - Lighting: soft daylight; slight backlight for rim.
 
 
 
-Generator Prompt (Sora/Veo3)
+[Generator Prompt]
 “Photoreal scene of two elderly neighbours walking together on a sidewalk, sharing a thermos, gentle conversation. Close-ups on hands. Soft daylight, shallow depth of field, natural soundscape. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 11,

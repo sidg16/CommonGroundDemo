@@ -1,12 +1,12 @@
 NIKATAM — Chunk 13: Montage — Micro-Wins (Chef, Tutor, Lost Dog) (0:48–0:51.5)
 
-Purpose
+[Purpose]
 Celebrate small community wins that feel personal and real.
 
-Timing
+[Timing]
 0:46–0:49.5 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,32 +14,30 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1033
-
-Visuals
+ 
+[Visuals]
 - Doodle cross‑dissolve montage: home chef handing a pastry to a new customer; tutor running a mini‑class; lost dog returned with happy reunion.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - None; let images breathe.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:49.0: “Week by week—skills swapped, activities done together, rides shared, classes formed, customers found.”
 
-Music & SFX
+[Music & SFX]
 - Music: gentle, warm; soft harmonic lift.
 - SFX: small bell ‘ding’ hits aligned to each micro-win.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: slow push-ins; close-ups on hands and faces.
 - Lighting: natural indoor light; warm color temperature.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodle montage: 1) home chef passes a pastry to a neighbour customer; 2) tutor teaching a small living-room lesson; 3) a happy reunion as a lost dog is returned; plus subtle feature echo ticks (Say Hi, Joined, Booked, confetti). Pencil textures, warm indoor light, 1080p 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 13,

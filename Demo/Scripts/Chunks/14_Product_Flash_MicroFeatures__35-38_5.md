@@ -1,12 +1,12 @@
 NIKATAM — Chunk 14: Product — Flash Micro-Features (0:35.0–0:38.5)
 
-Purpose
+[Purpose]
 Rapidly surface SOS, Lost & Found, Complaints, and Noticeboard as quick-utility features.
 
-Timing
+[Timing]
 0:35.0–0:38.5 (flex ±0.2s); each icon ~0.8–0.9s.
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,34 +14,31 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1014
-- Transition in: flash‑strip 0.25s; out: phone_slide_to_live_bleed 0.30s; easing: cubic‑bezier(0.2,0.8,0.2,1)
-
-Visuals
+ 
+[Visuals]
 - Rapid flash strip of icons on cream background with graphite labels: SOS (first), Lost & Found, Complaints, Notices.
 - Micro-animations: SOS pulse; Lost & Found pin dropping; Complaints icon shakes; Noticeboard sheet pins with bounce.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - Labels under each icon only; no extra captions.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:37.0+: “…and everything else that makes a neighbourhood… neighbourly.”
 
-Music & SFX
+[Music & SFX]
 - Music: continuous; small accents aligned to icon pops.
 - SFX: quick pops; subtle heartbeat pulse for SOS (calm, non-alarming); light pin ‘tock’ for Lost & Found.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: static center; snappy cuts between icons.
 - Lighting: clean studio; strong contrast.
 
 
 
-Generator Prompt (Sora/Veo3)
+[Generator Prompt]
 “Minimal icon showcase on cream background with graphite labels. Sequence: SOS (pulsing), Lost & Found (pin drops), Complaints (shake), Community Noticeboard (paper pin with bounce). Clean vector style, snappy micro-animations, no clutter. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 9,

@@ -1,12 +1,12 @@
 NIKATAM — Chunk 14A: Montage — Multi‑Context Workspaces (≈2.5–3.0s)
 
-Purpose
+[Purpose]
 Show that the app works in any hyperlocal circle: Society → Company → College.
 
-Timing
+[Timing]
 0:52.5–0:55.0 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,34 +14,32 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1035
-
-Visuals
+ 
+[Visuals]
 - A small group remains centered; the background parallax wallpaper swaps: Housing Society signage → Company lobby signage → College noticeboard.
 - The phone top nav shows a “Workspace” dropdown; a tap cycles contexts (no heavy text).
  - Use signage names: “Your Society”, “Your Company”, “Your College”.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - None; rely on signage and UI affordance.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - None (keep visual demonstration crisp).
 
-Music & SFX
+[Music & SFX]
 - Music: bed continuous; light UI ‘select’ tick on workspace change.
 - SFX: subtle ambience changes per context (hallway vs lobby vs campus), very soft.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: locked center; subtle parallax on background swap.
 - Lighting: neutral bright indoor.
 
 
 
-Generator Prompt (Sora/Veo3)
+[Generator Prompt]
 “Clean minimal composition: same small group center; background signage swaps across Housing Society → Company → College; phone UI top nav shows a Workspace selector tapped to cycle contexts. Soft shadows, subtle parallax, no text overlays. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 20,

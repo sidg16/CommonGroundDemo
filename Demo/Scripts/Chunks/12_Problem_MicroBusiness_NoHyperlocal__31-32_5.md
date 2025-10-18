@@ -1,12 +1,12 @@
 NIKATAM — Chunk 12: Problem — Micro‑Business, No Hyperlocal Reach (0:31–0:32.5)
 
-Purpose
+[Purpose]
 Show the core problem: local sellers lack a place where they’re actually seen.
 
-Timing
+[Timing]
 0:31.0–0:32.5 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,32 +14,31 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1026
+ 
+[Visuals]
+ - Doodle animation: quiet shop window / home baker counter with no customers; phone screen shows unread DMs (blurred/no legible names).
+ - Keep it tasteful, no negativity bias; just emptiness.
 
-- Doodle animation: quiet shop window / home baker counter with no customers; phone screen shows unread DMs (blurred/no legible names).
-- Keep it tasteful, no negativity bias; just emptiness.
-
-On-screen Text (OST)
+[On-screen Text (OST)]
 - Small caption: “No platform where it matters”.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - Short tail from Events or a soft breath; no dedicated line.
 
-Music & SFX
+[Music & SFX]
 - Music: slight dip to underscore the problem.
 - SFX: subtle room tone.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: slow static; shallow DOF.
 - Lighting: natural indoor light, slightly dimmer.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodle animation per StyleGuide. Quiet home micro‑business (e.g., bakery counter), no customer traffic; phone shows unread DMs (no legible names). Cream paper, pencil textures; subdued mood; no baked text/logos. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 12,

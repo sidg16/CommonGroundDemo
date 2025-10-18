@@ -1,12 +1,12 @@
 NIKATAM — Chunk 10: Product — Events (FAST) (0:27–0:29)
 
-Purpose
+[Purpose]
 Instantly show an event join; slam cut to live cricket payoff next.
 
-Timing
+[Timing]
 0:27.0–0:29.0 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,33 +14,31 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1024
-
-Visuals
+ 
+[Visuals]
 - Event card: “Cricket meetup — Local Ground — Sat 4PM”.
 - Tap ‘Join’; tiny confetti or chime indicator.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - None beyond UI.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:00.6: “Join local events.”
 
-Music & SFX
+[Music & SFX]
 - Music: continuous; small accent on join.
 - SFX: soft tap; confirm chime.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: static UI; micro parallax on card.
 - Lighting: soft studio; clean shadows.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodled phone UI. Event card ‘Cricket meetup — Local Ground — Sat 4PM’. Tap ‘Join’ triggers a small celebratory indicator (confetti 0.4s). Hand‑drawn frame; minimal icons; pencil shadow; 300–350ms micro‑interaction; no baked text/logos.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 10,

@@ -1,12 +1,12 @@
 NIKATAM — Chunk 11: Live — Cricket Highlight (0:29–0:31)
 
-Purpose
+[Purpose]
 Deliver an immediate emotional payoff after joining an event.
 
-Timing
+[Timing]
 0:29.0–0:31.0 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,32 +14,31 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1025
+ 
+[Visuals]
+ - Doodle animation: local ground, wicket moment, then a quick 3–4 person team moment (micro‑huddle or chain of high‑fives).
+ - Keep framing tight; capture the smile and contact.
 
-- Doodle animation: local ground, wicket moment, then a quick 3–4 person team moment (micro‑huddle or chain of high‑fives).
-- Keep framing tight; capture the smile and contact.
-
-On-screen Text (OST)
+[On-screen Text (OST)]
 - None.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - “Game on—strangers become teammates.”
 
-Music & SFX
+[Music & SFX]
 - Music: slight rise.
 - SFX: one realistic leather‑on‑willow ‘thwack’; light crowd cheer.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: handheld sideline; shallow DOF.
 - Lighting: late-afternoon warm daylight.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodle animation per StyleGuide. Local cricket ground; wicket taken; two neighbours exchange a crisp high‑five; joyful reaction. Thin squiggly graphite, pencil textures, cream paper; no baked text/logos. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 11,

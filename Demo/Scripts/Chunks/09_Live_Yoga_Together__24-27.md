@@ -1,12 +1,12 @@
 NIKATAM — Chunk 09: Live — Yoga Together (0:24–0:27)
 
-Purpose
+[Purpose]
 Make Activities feel tangible: a small group with an instructor, together.
 
-Timing
+[Timing]
 0:24.0–0:27.0 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,32 +14,30 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1023
-
+- [Visuals]
 - Doodle animation: small yoga group + instructor; instructor gives a clear cue (hand gesture) and the group moves into one gentle synchronized pose.
 - Keep wardrobe simple, natural smiles; no branding.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - None.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - “Morning turns from plan to practice, with an instructor.”
 
-Music & SFX
+[Music & SFX]
 - Music: same bed; add a soft inhale/exhale layer.
 - SFX: subtle ambient birds/leaf rustle.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: slow lateral slide; shallow DOF; brief focus pull from instructor to group.
 - Lighting: golden-hour or soft morning light.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodle animation per StyleGuide. Small group with instructor outdoors; one gentle synchronized pose; thin squiggly graphite; cream paper; minimal props; no baked text/logos. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 9,

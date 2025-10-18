@@ -1,12 +1,12 @@
 NIKATAM — Chunk 06: Product — Connect Feature (0:12.5–0:17.5)
 
-Purpose
+[Purpose]
 Introduce the Connect feature: match neighbours via interest tags and quick hello.
 
-Timing
+[Timing]
 0:12.5–0:17.5 (flex ±0.3s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,37 +14,35 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1020
-
-Visuals
+ 
+[Visuals]
 - Centered phone mockup slides in from the right.
 - Home screen shows profile card with interest tags: “Badminton”, “Yoga”, “Tutoring”.
 - Badge shows: “12 neighbours match”.
 - Finger taps “Connect”; modal pops with two neighbouring profiles and one-tap “Say Hi”.
  - Optional detail: dashboard cluster from Commute morph resolves into the “Connect” button to preserve continuity.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - Lower third: “Connect with neighbours by interest”.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:25.2: “Nikatam connects neighbours instantly—through shared interests—everyone connects.”
 - Delivery: clear, slightly brighter tone — relief.
 
-Music & SFX
+[Music & SFX]
 - Music: keep bed; add subtle uplift at the tap moment.
 - SFX: soft UI tap ‘click’; tag ‘pop’.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: slight push-in during modal; micro parallax on cards.
 - Lighting: clean studio; soft shadows.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodled phone UI on cream paper (per StyleGuide). Home shows interest tag chips ‘Badminton’, ‘Yoga’, ‘Tutoring’; badge ‘12 neighbours match’. Tap ‘Connect’ reveals doodled modal with two neighbour profiles and ‘Say Hi’. Smooth micro‑interactions (300–350ms), soft pencil shadows, minimal design. No baked text/logos.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 6,

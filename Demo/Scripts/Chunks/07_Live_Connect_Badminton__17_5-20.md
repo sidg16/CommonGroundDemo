@@ -1,12 +1,12 @@
 NIKATAM — Chunk 07: Live — Connect (Badminton) (0:17.5–0:20)
 
-Purpose
+[Purpose]
 Show the immediate human outcome of Connect: the first shared hit in a doubles rally.
 
-Timing
+[Timing]
 0:17.5–0:20.0 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,32 +14,30 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1021
-
-Visuals
+ 
+[Visuals]
 - Doodle animation two-beat micro-montage (within 2.5s):
 - Beat 1 (~1.2s): match cut from avatar circle to FIRST hit of a badminton doubles rally; capture contact and shared glance.
 - Beat 2 (~1.1s): carpool door opens; neighbours smile and get in; quick nod.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - None.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - None (tail continues from Connect line).
 
-Music & SFX
+[Music & SFX]
 - Music: subtle lift; one crisp ‘thwack’; soft car door ‘thud’.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: handheld‑like doodle jitter (very subtle); close framing.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodle animation per StyleGuide. First hit in a badminton doubles rally between neighbours; capture contact and shared glance; thin squiggly lines, pencil texture, cream paper; no baked text/logos. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 7,

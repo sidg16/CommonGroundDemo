@@ -1,12 +1,12 @@
 NIKATAM — Chunk 08D: Product — Businesses (≈2.5s)
 
-Purpose
+[Purpose]
 Solve the micro‑business problem: get seen where it matters, hyperlocally.
 
-Timing
+[Timing]
 0:32.5–0:35.0 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,35 +14,33 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1027
-
-Visuals
+ 
+[Visuals]
 - Split UI (half–half screen): left shows a local bakery card “Open for bookings”; right shows a tuition card “Open for bookings”.
 - Tap ‘Book’ on the bakery side; subtle confirmation tick. Tuition side shows ‘Message’ hover to suggest alternatives.
 - Quick 0.3s insert: pastry/bag handoff (ties to Micro‑wins later).
  - Optional micro-badge: after the Book tick, flash “Seen by 32 neighbours” for ~0.6s above the bakery card OR a small “Neighbourhood picks” pill.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - Lower left: “Local businesses seen where it matters”.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:00.6: “Give micro‑businesses a storefront in the neighbourhood—be known, be booked, grow.”
 
-Music & SFX
+[Music & SFX]
 - Music: small uplift.
 - SFX: soft slide; confirm chime.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: static UI; micro parallax on card.
 - Lighting: soft studio.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodled phone UI split half–half: left bakery ‘Open for bookings’, right tuition ‘Open for bookings’. Tap ‘Book’ on bakery → subtle confirmation tick; tuition shows ‘Message’ hover. Hand‑drawn frame, minimal icons; pencil shadows; 300–350ms micro‑interactions; no baked text/logos.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 13,

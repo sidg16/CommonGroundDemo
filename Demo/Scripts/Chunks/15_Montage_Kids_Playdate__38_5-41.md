@@ -1,12 +1,12 @@
 NIKATAM — Chunk 10: Montage — Kids Playdate (0:40–0:42.5)
 
-Purpose
+[Purpose]
 Open the transformation montage with genuine childlike joy.
 
-Timing
+[Timing]
 0:38.5–0:41.0 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,34 +14,32 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1030
-
-Visuals
+ 
+[Visuals]
 - Doodle animation: small balcony playdate, toys, laughing, high‑fives.
 - Insert 0.8s: quick study moment with shared workbook or puzzle, heads together.
 - Handheld camera; warm golden-hour light; shallow DOF.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - Small lower third: “Kids — play & learn”.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:40.4: “Smiling kids, playing together.” (soft tone)
 
-Music & SFX
+[Music & SFX]
 - Music: add gentle strings pad; maintain bed.
 - SFX: softened giggles; ambient laughter; faint page flip or pencil scratch during study insert (very soft).
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: handheld, minor sway; focus pulls between faces and hands.
 - Lighting: golden-hour; warm highlights, soft shadows.
 
 
 
-Generator Prompt (Sora/Veo3)
+[Generator Prompt]
 “Photoreal candid scene of kids (ages 3–7) on a small balcony playdate, warm golden-hour sunlight, shallow depth of field, natural smiles and high-fives. Handheld camera feel, subtle film grain, no logos, 1080p 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 10,

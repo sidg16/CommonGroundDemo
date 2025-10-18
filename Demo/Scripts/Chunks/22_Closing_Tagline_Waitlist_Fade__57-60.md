@@ -1,12 +1,12 @@
 NIKATAM — Chunk 16: Closing — Tagline, Waitlist, Fade (0:57–1:00)
 
-Purpose
+[Purpose]
 Deliver tagline and waitlist CTA; finish with a gentle fade.
 
-Timing
+[Timing]
 0:57–1:00 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,33 +14,33 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Visuals
+[Visuals]
 - Start with doodled logo/map held from previous.
 - Over ~0.8s, the doodled logo and lines morph to clean vector (crisper edges, subtle glow settles).
 - Tagline reveals below: “Coming soon — to your neighbourhood”.
 - Visual CTA button graphic appears: “Join waitlist” (visual only).
 - Final quick fade to black; logo holds faintly on the last frame.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - “Join the waitlist: [website placeholder]” (small).
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:58.0: “Coming soon to your neighbourhood.” (final, warm)
 
-Music & SFX
+[Music & SFX]
 - Music: sustain; small final melodic bell.
 - SFX: subtle UI sparkle on CTA appearance.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: locked; minimal micro-drift on logo.
 - Lighting: soft glow; clean contrast for readability.
 
 
 
-Generator Prompt (Sora/Veo3)
+[Generator Prompt]
 “Cream paper background. Hold doodled ‘NIKATAM’ from previous, then morph it into a clean vector logo over ~0.8s, settling with a soft professional glow. Reveal the tagline ‘Coming soon — to your neighbourhood’ and a visual-only ‘Join waitlist’ CTA button. No extra text/logos. 1080p, 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 16,

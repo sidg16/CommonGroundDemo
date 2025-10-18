@@ -1,76 +1,28 @@
-NIKATAM — Chunk 02: Vignette — Badminton (0:02.5–0:05)
+NIKATAM — Chunk 02: Vignette — Badminton
 
-Purpose
-Depict the relatable loneliness of wanting a partner for a game.
+[Style]
+Hand‑drawn doodle on warm cream paper; thin, gently wobbly graphite lines; soft colored‑pencil accents; no gradients; no baked text, logos, or UI.
 
-Timing
-0:02.5–0:05.0 (flex ±0.3s).
-
-Global Settings (paste into generator)
-- Engines: Veo3 or InVideo
-- Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
-- Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
-- Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
-- Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
-
-Per‑chunk Overrides
-- Seed: 1010
-
-Visuals
+[Visuals]
 - Vertical stacked split-frame (top/bottom): two simple rooms, one above the other.
-- Each figure is playing individually and unsynchronously; shuttlecocks hit the wall and then fall to the floor.
-- Final beat: a brief zoom‑out that holds a fraction longer on both figures to convey light sadness/wistfulness.
+- Single slow zoom‑out shot for the entire clip. Each player plays alone and hits the shuttlecock once; it hits the wall and falls to the floor. Actions are unsynchronized between panels to imply separation.
 
-On-screen Text (OST)
-- Flash ~0:01.0: “Wanted: partner” (≤0.8s)
+[Composition]
+- Top panel shows a simple room with the player slightly right of center; a tiny plant sits to the right. Bottom panel mirrors this with the player slightly left and a tiny plant to the left. The shuttlecock in each panel appears near the wall, then is seen resting on the floor by the end. Keep backgrounds minimal and roomy.
 
-Voiceover (VO)
-- 0:00.2: “Both want a game…”
-- 0:01.6: “…but end up playing badminton with themselves.”
+[Beat Flow]
+- First the top player hits and we see a couple of tiny impact lines by the wall as the shuttle begins to drop. A moment later, the bottom player hits; the shuttle drops there too. Both end with a small, quiet hold.
+- The camera performs one gentle, continuous slow zoom‑out across the whole shot.
 
-Music & SFX
-- Music: keep bed; light metronome-like tick.
-- SFX: shuttlecock ‘thwack’; soft ‘plop’ on fall.
 
-Camera / Lighting
-- Camera: locked split; subtle camera drift.
+[Narrative]
+Two neighbours, one above the other, are so close yet unaware. Each plays a little game alone; each shuttle taps the wall and drops. The slow zoom reveals the small ache of separation without turning heavy.
+
+[Camera / Lighting]
+- Camera: locked split; subtle hand‑drawn drift; a single gentle slow zoom‑out over the whole shot.
 - Lighting: clean flat; minimal props to keep focus on action.
 
-
-
-Generator Prompt (Sora/Veo3)
-"Doodle animation. Vertical stacked split‑frame (top room / bottom room); two simple rooms. Each stick figure plays individually and unsynchronously—shuttlecock hits the wall and then falls to the floor. Expressive but simple faces; thin squiggly graphite lines; cream paper background; ≤2 faint background doodles (window/plant). End with a brief zoom‑out that lingers to suggest gentle sadness. No baked text/logos. 1080p, 24fps."
-
-JSON Shot Spec
-```json
-{
-  "id": 2,
-  "label": "Vignette — Badminton",
-  "duration_s": 2.5,
-  "fps": 24,
-  "resolution": "1920x1080",
-  "engines": ["Veo3", "InVideo"],
-  "vo": [
-    {"t":0.2, "text":"Both want a game…"},
-    {"t":1.6, "text":"…but end up playing badminton with themselves."}
-  ],
-  "ost": [{"t":1.0, "text":"Wanted: partner", "dur":0.8, "pos":"center"}],
-  "sfx": [
-    {"t":0.6, "name":"shuttle_thwack"},
-    {"t":1.8, "name":"shuttle_plop"}
-  ],
-  "camera": "locked_split",
-  "lighting": "flat_clean",
-  "prompt": "Doodle vertical stacked split: top/bottom rooms; unsynchronized solo play; shuttle hits wall then falls; brief end zoom‑out; pencil texture; no baked text.",
-  "transition_in": "cross_dissolve",
-  "transition_out": "shuttle_to_avatar_phone_morph",
-  "transition_in_duration_s": 0.25,
-  "transition_out_duration_s": 0.3,
-  "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
-  "seed": 1010,
-  "negative_prompt": "no watermarks, no extra baked captions, no third-party logos, minimal background"
-}
-```
+[Generator Prompt]
+"Doodle animation. A vertical stacked split shows two simple rooms, one above the other. In the top room, the player stands slightly right of center; in the bottom room, the player stands slightly left. Each hits the shuttlecock once—it nudges the wall and then we see it resting on the floor by the end. The actions happen a moment apart so they do not feel in sync. Add a couple of tiny hand‑drawn impact lines near each wall and very small fall marks by the shuttlecock. Keep the camera calm with one gentle slow zoom‑out over the whole shot. Lines are thin and slightly wobbly; fills are soft colored‑pencil; backgrounds remain minimal with lots of breathing space. No text, no logos, no UI."
 
 

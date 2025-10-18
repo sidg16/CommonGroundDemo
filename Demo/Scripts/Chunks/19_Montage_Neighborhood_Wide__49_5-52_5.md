@@ -1,12 +1,12 @@
 NIKATAM — Chunk 14: Montage — Alive Neighborhood Wide (0:51.5–0:55)
 
-Purpose
+[Purpose]
 Show the transformed neighbourhood: clusters interacting, motif lights.
 
-Timing
+[Timing]
 0:49.5–0:52.5 (flex ±0.2s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,32 +14,30 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1034
-
-Visuals
+ 
+[Visuals]
 - Doodle wide establishing shot: multiple small clusters interacting — chatting, mini yoga group, two playing catch.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - Center, small: “A neighbourhood that feels like family”.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:52.0: “A community that feels like family again.” (warm, uplifted)
 
-Music & SFX
+[Music & SFX]
 - Music: mild crescendo; add warm strings.
 - SFX: soft ambient chatter; light breeze.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: slow aerial dolly or crane rise; subtle parallax.
 - Lighting: golden late-afternoon daylight.
 
 
 
-Generator Prompt (Sora/Veo3)
+[Generator Prompt]
 “Photoreal wide establishing shot of a cozy neighborhood with small groups interacting (chatting, micro-yoga, two playing catch). Subtle orange-dot motif as lit windows/signs. Late-afternoon warm light, slow aerial dolly, 1080p 24fps.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 14,

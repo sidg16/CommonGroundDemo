@@ -1,12 +1,12 @@
 NIKATAM — Chunk 07: Product — Activities & Feed (0:30–0:34)
 
-Purpose
+[Purpose]
 Showcase discovering and joining ongoing activities from the feed.
 
-Timing
+[Timing]
 0:20–0:24 (flex ±0.3s).
 
-Global Settings (paste into generator)
+[Global Settings]
 - Engines: Veo3 or InVideo
 - Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
 - Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
@@ -14,34 +14,32 @@ Global Settings (paste into generator)
 - Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
 - Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
 
-Per‑chunk Overrides
-- Seed: 1022
-
-Visuals
+ 
+[Visuals]
 - Phone UI switches to Feed: cards like “Morning Yoga — Park — 7AM”, “Badminton meetup — Saturday 4PM”.
 - ‘Join’ button pulses subtly on an activity card.
 - Scroll reveals details; participants counter grows 2 → 9.
 
-On-screen Text (OST)
+[On-screen Text (OST)]
 - “Find and join activities near you”.
 
-Voiceover (VO)
+[Voiceover (VO)]
 - 0:31.0: “From daily yoga sessions… to one-time cricket matches.”
 
-Music & SFX
+[Music & SFX]
 - Music: continuous; add soft riser on join.
 - SFX: swipe whoosh; soft ding when joining.
 
-Camera / Lighting
+[Camera / Lighting]
 - Camera: over-the-shoulder feel in mockup; slight parallax.
 - Lighting: soft studio; high readability.
 
 
 
-Generator Prompt (Veo3/InVideo)
+[Generator Prompt]
 “Doodled phone UI feed with cards: ‘Morning Yoga — Park — 7AM’, ‘Badminton meetup — Saturday 4PM’. Subtle pulsing ‘Join’; participants count animates 2→9 (≈0.8s). Hand‑drawn frame, chips, minimal icons; pencil shadow; smooth scroll 300–350ms; no baked text/logos.”
 
-JSON Shot Spec
+[JSON Shot Spec]
 ```json
 {
   "id": 7,
