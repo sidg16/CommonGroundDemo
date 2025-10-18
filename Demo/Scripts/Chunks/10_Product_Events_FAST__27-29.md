@@ -1,69 +1,20 @@
-NIKATAM — Chunk 10: Product — Events (FAST) (0:27–0:29)
+NIKATAM — Chunk 10: Product — Events (FAST)
 
-[Purpose]
-Instantly show an event join; slam cut to live cricket payoff next.
+[Style]
+Hand‑drawn doodle; warm cream paper; thin, slightly wobbly lines; soft colored‑pencil fills; minimal, text‑free UI shapes.
 
-[Timing]
-0:27.0–0:29.0 (flex ±0.2s).
-
-[Global Settings]
-- Engines: Veo3 or InVideo
-- Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
-- Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
-- Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
-- Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
-
- 
 [Visuals]
-- Event card: “Cricket meetup — Local Ground — Sat 4PM”.
-- Tap ‘Join’; tiny confetti or chime indicator.
+- A doodled phone shows a simple event card as clear shapes suggesting a local cricket meetup.
+- A join control is tapped; a tiny celebratory indicator appears briefly.
+- Keep the composition clean and snappy.
 
-[On-screen Text (OST)]
-- None beyond UI.
-
-[Voiceover (VO)]
-- 0:00.6: “Join local events.”
-
-[Music & SFX]
-- Music: continuous; small accent on join.
-- SFX: soft tap; confirm chime.
+[Narrative]
+See an event, join in a moment—done.
 
 [Camera / Lighting]
-- Camera: static UI; micro parallax on card.
-- Lighting: soft studio; clean shadows.
-
-
+- Static phone framing with soft micro‑parallax in the card; soft studio‑like light.
 
 [Generator Prompt]
-“Doodled phone UI. Event card ‘Cricket meetup — Local Ground — Sat 4PM’. Tap ‘Join’ triggers a small celebratory indicator (confetti 0.4s). Hand‑drawn frame; minimal icons; pencil shadow; 300–350ms micro‑interaction; no baked text/logos.”
+"Doodle animation. A hand‑drawn phone displays a minimal event card as simple shapes hinting at a local cricket meetup. A join control is tapped and a tiny celebratory indicator appears. Keep the motion quick and clear; lines thin and wobbly, fills soft colored‑pencil, background uncluttered; no text or logos."
 
-[JSON Shot Spec]
-```json
-{
-  "id": 10,
-  "label": "Product — Events (FAST)",
-  "duration_s": 2.0,
-  "fps": 24,
-  "resolution": "1920x1080",
-  "engines": ["Veo3", "InVideo"],
-  "vo": [{"t":0.6, "text":"Join local events."}],
-  "ost": [],
-  "sfx": [
-    {"t":0.8, "name":"ui_tap_soft"},
-    {"t":1.4, "name":"confirm_chime"}
-  ],
-  "camera": "static_ui_parallax",
-  "lighting": "soft_studio",
-  "prompt": "Doodled feed card: Cricket meetup Local Ground Sat 4PM; join tap; minimal UI; no baked text.",
-  "transition_in": "card_flip",
-  "transition_out": "cut_to_live_cricket",
-  "transition_in_duration_s": 0.25,
-  "transition_out_duration_s": 0.2,
-  "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
-  "seed": 1024,
-  "negative_prompt": "no watermarks, no extra baked captions, no third-party logos"
-}
-```
-
-
+ 

@@ -1,70 +1,20 @@
-NIKATAM — Chunk 07: Product — Activities & Feed (0:30–0:34)
+NIKATAM — Chunk 08: Product — Activities & Feed
 
-[Purpose]
-Showcase discovering and joining ongoing activities from the feed.
+[Style]
+Hand‑drawn doodle; warm cream paper; thin, slightly wobbly lines; soft colored‑pencil fills; no gradients; no text or logos baked into frames.
 
-[Timing]
-0:20–0:24 (flex ±0.3s).
-
-[Global Settings]
-- Engines: Veo3 or InVideo
-- Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
-- Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
-- Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
-- Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
-
- 
 [Visuals]
-- Phone UI switches to Feed: cards like “Morning Yoga — Park — 7AM”, “Badminton meetup — Saturday 4PM”.
-- ‘Join’ button pulses subtly on an activity card.
-- Scroll reveals details; participants counter grows 2 → 9.
+- A doodled phone shows a simple feed of activity cards as clear shapes—one suggests a morning yoga group, another a badminton meetup.
+- A join control on a card gives a gentle pulse; the list scrolls smoothly.
+- Keep the layout clean with ample breathing space.
 
-[On-screen Text (OST)]
-- “Find and join activities near you”.
-
-[Voiceover (VO)]
-- 0:31.0: “From daily yoga sessions… to one-time cricket matches.”
-
-[Music & SFX]
-- Music: continuous; add soft riser on join.
-- SFX: swipe whoosh; soft ding when joining.
+[Narrative]
+Discover nearby activities at a glance and join with ease.
 
 [Camera / Lighting]
-- Camera: over-the-shoulder feel in mockup; slight parallax.
-- Lighting: soft studio; high readability.
-
-
+- Subtle push‑in and soft parallax within the phone; soft studio‑like light; quiet background.
 
 [Generator Prompt]
-“Doodled phone UI feed with cards: ‘Morning Yoga — Park — 7AM’, ‘Badminton meetup — Saturday 4PM’. Subtle pulsing ‘Join’; participants count animates 2→9 (≈0.8s). Hand‑drawn frame, chips, minimal icons; pencil shadow; smooth scroll 300–350ms; no baked text/logos.”
+"Doodle animation. A hand‑drawn phone displays a clean feed of activity cards as simple shapes (for example: a morning yoga group, a badminton meetup). A join control gently pulses and the list scrolls smoothly. Keep the UI minimal, roomy, and readable; lines are thin and wobbly; fills are soft colored‑pencil; no text or logos baked in."
 
-[JSON Shot Spec]
-```json
-{
-  "id": 7,
-  "label": "Product — Activities & Feed",
-  "duration_s": 4,
-  "fps": 24,
-  "resolution": "1920x1080",
-  "engines": ["Veo3", "InVideo"],
-  "vo": [{"t":31.0, "text":"From daily yoga sessions… to one-time cricket matches."}],
-  "ost": [{"t":30.4, "text":"Find and join activities near you", "pos":"ll"}],
-  "sfx": [
-    {"t":30.2, "name":"swipe_whoosh"},
-    {"t":32.2, "name":"soft_ding"}
-  ],
-  "camera": "slight_parallax",
-  "lighting": "soft_studio",
-  "prompt": "Doodled feed cards: Morning Yoga/Badminton; join pulse; counter 2->9 in 0.8s; smooth scroll; no baked text.",
-  "transition_in": "swipe",
-  "transition_out": "card_flip",
-  "transition_in_duration_s": 0.25,
-  "transition_out_duration_s": 0.3,
-  "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
-  "seed": 1022,
-  "negative_prompt": "no watermarks, no extra baked captions, no third-party logos"
-}
-```
-
-
+ 

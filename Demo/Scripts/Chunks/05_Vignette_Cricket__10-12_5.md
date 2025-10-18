@@ -17,10 +17,19 @@ We see the desire to play together, yet feel alone. Either a big TV frame shows 
 - Lighting: flat clean; stick-figure style.
 
 
-
 [Generator Prompt]
-“Doodle animation. Option A: a large hand‑drawn TV frame in the center shows a simple cricket scene (pitch lines, a ball arc). Around it, several small couch silhouettes each seat one stick‑figure viewer, spaced so they feel apart. Option B: a small open ground with a single stick‑figure reaching for the ball and just missing it; the ball falls nearby. Lines are thin and slightly wobbly; fills are soft colored‑pencil; keep the background uncluttered and quiet. Hold the moment long enough to register the gentle irony—wanting a team, sitting alone. No text, no logos, no UI.”
+“Hand‑drawn doodle animation on warm cream paper (#fff3e0). Thin, gently wobbly graphite lines (#0E1012), soft colored‑pencil fills; no gradients; no baked text or logos. 16:9, 1920×1080, 24 fps.
 
+Scene:
+1) Start inside a single living room. Center frame: a large hand‑drawn TV rectangle shows a simple cricket moment (pitch lines, stumps, a ball arc). One stick‑figure sits on a small couch facing the TV. Props minimal (tiny plant or window outline), very light.
+2) Smooth pull‑back: the view pulls back to reveal the house exterior, then continues to a tidy grid of houses arranged 5 columns by 2 rows (10 total). Inside each house, mirror the same setup: one stick‑figure on a small couch watching the same simple cricket moment on a TV.
+3) End: hold briefly on the full 5×2 grid to clearly convey ‘alone together’.
 
+Style & motion:
+- Lines thin and slightly squiggly; pencil texture only where needed for readability.
+- Single continuous camera pull‑back (no cuts, no shakes).
+- Flat, clean lighting; uncluttered background; strong negative space.
 
+Timing (guide): total 2.5–3.0s; ~1.2s on the single room before pull‑back; ~1.3–1.8s to complete reveal and brief hold.
 
+Avoid: photoreal elements, gradients, complex textures, any text/UI/branding in-scene.”

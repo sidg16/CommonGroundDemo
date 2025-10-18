@@ -1,65 +1,19 @@
-NIKATAM — Chunk 07: Live — Connect (Badminton) (0:17.5–0:20)
+NIKATAM — Chunk 07: Live — Connect (Badminton)
 
-[Purpose]
-Show the immediate human outcome of Connect: the first shared hit in a doubles rally.
+[Style]
+Hand‑drawn doodle; warm cream background; thin, gently wobbly graphite lines; soft colored‑pencil fills; no gradients or baked text.
 
-[Timing]
-0:17.5–0:20.0 (flex ±0.2s).
-
-[Global Settings]
-- Engines: Veo3 or InVideo
-- Art: doodle animation; strict stickman; cream paper #fff3e0; thin graphite #0E1012 (2–3 px) with 1–2 px jitter; pencil textures; no gradients; no baked text/logos.
-- Format: 1920×1080 (16:9), 24 fps, Rec.709 gamma 2.4; subtle film grain ≈2%.
-- Transitions default: in 0.25s, out 0.30s; easing cubic‑bezier(0.2,0.8,0.2,1).
-- Audio mix: 48 kHz; −16 LUFS; peaks ≤ −1 dBTP; VO duck −6 dB; SFX −3 dB vs music.
-- Negative prompts: no watermarks; no crowds/clutter; no extra captions; no third‑party logos.
-
- 
 [Visuals]
-- Doodle animation two-beat micro-montage (within 2.5s):
-- Beat 1 (~1.2s): match cut from avatar circle to FIRST hit of a badminton doubles rally; capture contact and shared glance.
-- Beat 2 (~1.1s): carpool door opens; neighbours smile and get in; quick nod.
+- Two quick beats create a human payoff: first, the very first shared hit of a badminton doubles rally as neighbours lean in and the shuttle kisses strings; second, a carpool door opens and a friendly nod is exchanged as they get in.
+- Keep faces simple and open; include a small shared glance in the rally beat.
 
-[On-screen Text (OST)]
-- None.
-
-[Voiceover (VO)]
-- None (tail continues from Connect line).
-
-[Music & SFX]
-- Music: subtle lift; one crisp ‘thwack’; soft car door ‘thud’.
+[Narrative]
+Connection turns into action—play together, travel together.
 
 [Camera / Lighting]
-- Camera: handheld‑like doodle jitter (very subtle); close framing.
-
-
+- Close, intimate framing with gentle hand‑drawn jitter; neutral soft light; clean background.
 
 [Generator Prompt]
-“Doodle animation per StyleGuide. First hit in a badminton doubles rally between neighbours; capture contact and shared glance; thin squiggly lines, pencil texture, cream paper; no baked text/logos. 1080p, 24fps.”
+"Doodle animation. Show two quick beats: 1) the first shared hit of a badminton doubles rally between neighbours with a tiny shared glance at contact; 2) a carpool door opening and a warm nod as they get in together. Lines are thin and slightly wobbly, fills are soft colored‑pencil, background warm cream and uncluttered. Keep it human and text‑free."
 
-[JSON Shot Spec]
-```json
-{
-  "id": 7,
-  "label": "Live Payoff — Connect (Badminton)",
-  "duration_s": 2.5,
-  "fps": 24,
-  "resolution": "1920x1080",
-  "engines": ["Veo3", "InVideo"],
-  "vo": [{"t":0.1, "text":"A quick hello becomes a rally… and a shared ride."}],
-  "ost": [],
-  "sfx": [{"t":0.6, "name":"shuttle_thwack"}, {"t":1.8, "name":"car_door_thud_soft"}],
-  "camera": "handheld_like_close",
-  "lighting": "neutral",
-  "prompt": "Doodle badminton doubles rally first hit; contact + shared glance; pencil texture; no baked text.",
-  "transition_in": "match_cut_from_avatar",
-  "transition_out": "swipe_to_feed",
-  "transition_in_duration_s": 0.25,
-  "transition_out_duration_s": 0.3,
-  "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
-  "seed": 1021,
-  "negative_prompt": "no watermarks, no extra baked captions, no third-party logos"
-}
-```
-
-
+ 
