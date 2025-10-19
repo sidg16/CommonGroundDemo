@@ -1,5 +1,5 @@
 # Ignore local video assets
-Demo/Video/
 .DS_Store
-
-
+Demo/Video/
+Demo/2D Video/
+Demo/3D Video/
