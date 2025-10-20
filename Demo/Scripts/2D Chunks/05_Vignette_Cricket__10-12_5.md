@@ -1,5 +1,3 @@
-NIKATAM — Chunk 05: Vignette — Cricket
-
 [Style]
 Hand‑drawn doodle on warm cream paper; thin, gently wobbly graphite lines; soft colored‑pencil accents; no gradients; no baked text, logos, or UI.
 
@@ -29,7 +27,5 @@ Style & motion:
 - Lines thin and slightly squiggly; pencil texture only where needed for readability.
 - Single continuous camera pull‑back (no cuts, no shakes).
 - Flat, clean lighting; uncluttered background; strong negative space.
-
-Timing (guide): total 2.5–3.0s; ~1.2s on the single room before pull‑back; ~1.3–1.8s to complete reveal and brief hold.
 
 Avoid: photoreal elements, gradients, complex textures, any text/UI/branding in-scene.”

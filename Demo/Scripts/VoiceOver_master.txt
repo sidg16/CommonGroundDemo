@@ -1,12 +1,12 @@
 NIKATAM — Voiceover Master (chunks 01–22)
 
 01 Opening: "Imagine your neighbourhood wasn’t just buildings and doors—"
-02 Vignette — Badminton: "—but people you’re meant to meet. Two homes, one game, still no partner."
-03 Vignette — Commute: "Same route to the same office, yet alone—time and money slipping away."
-04 Vignette — Yoga: "We stretch ourselves apart when together would be much better."
-05 Vignette — Cricket: "We want a team, but play solo from the couch."
+02 Problem — Badminton: "—but people you’re meant to meet. Two homes, one game, still no partner."
+03 Problem — Commute: "Same route to the same office, yet alone—time and money slipping away."
+04 Problem — Yoga: "We stretch ourselves apart when together would be much better."
+05 Problem — Cricket: "We want a team, but play solo from the couch."
 06 Product — Connect: "Nikatam connects neighbours instantly—through shared interests—everyone connects."
-07 Live — Connect: "A quick hello becomes a rally… and a shared ride."
+07 Live — Connect: "A quick hello becomes a rally… and a shared ride... or anything else."
 08 Product — Activities: "Find daily activities near you—and join in seconds."
 09 Live — Yoga: "Morning turns from plan to practice, with an instructor."
 10 Product — Events: "See local events that actually happen around you—tap join."
